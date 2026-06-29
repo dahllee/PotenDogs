@@ -23,8 +23,7 @@
       position: fixed;
       top: 0; left: 0; right: 0;
       z-index: 1000;
-      background: rgba(10, 12, 18, 0.88);
-      backdrop-filter: blur(6px);
+      background: #252525;
     }
     nav {
       display: flex;
@@ -36,8 +35,8 @@
     nav a {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       font-size: 14px;
-      font-weight: 300;
-      letter-spacing: 0.04em;
+      font-weight: 500;
+      letter-spacing: -0.4px;
       color: #888;
       transition: color 0.2s;
     }
@@ -471,18 +470,21 @@
     #contact .email-link:hover { opacity: 0.8; }
 
     /* ── Footer ── */
+    footer.grain-box { background: #252525; }
     footer {
-      padding: 40px 24px 48px;
+      padding: 26px 24px 30px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 12px;
+      gap: 8px;
     }
     footer img { height: 60px; width: auto; }
     footer p {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       font-size: 13px;
       color: #aaa;
+      position: relative;
+      top: -5px;
     }
   </style>
 </head>
