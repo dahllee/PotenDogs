@@ -15,10 +15,12 @@
     nav a:hover { color: #fff; }
     #hero { min-height: 100vh; padding-top: 56px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; text-align: center; }
     .char-header { display: flex; align-items: center; justify-content: center; gap: 20px; padding: 60px 24px 32px; }
-    .char-header img { height: 150px; width: auto; }
-    .char-title h1 { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 44px; font-weight: 700; letter-spacing: 0.04em; line-height: 1; text-align: left; }
+    .char-header img { height: 150px; width: auto; transform: translateY(-14px); }
+    .char-title h1 { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 44px; font-weight: 700; letter-spacing: calc(0.04em - 1px); line-height: 1; text-align: left; color: #dbdbdb; transform: scaleX(0.9); transform-origin: center; }
+    .char-title { display: flex; flex-direction: column; align-items: center; margin-left: -17px; }
+    .char-title p { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 18px; color: #aaa; letter-spacing: 1.1px; font-style: italic; text-align: center; margin-top: 6px; }
     .char-main { display: flex; flex-direction: column; align-items: center; position: relative; z-index: 2; }
-    .char-main img { height: 43vh; max-height: 402px; width: auto; }
+    .char-main img { height: 34.3vh; max-height: 321px; width: auto; }
     .hex-box { width: min(433px, 88vw); aspect-ratio: 1.732 / 2; margin: -127px auto 0; position: relative; }
     .char-desc { position: absolute; inset: 0; background: #181818; clip-path: path('M 203,8 Q 217,0 230,8 L 419,117 Q 433,125 433,141 L 433,359 Q 433,375 419,383 L 230,492 Q 217,500 203,492 L 14,383 Q 0,375 0,359 L 0,141 Q 0,125 14,117 Z'); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 115px 20px; text-align: center; }
     .char-desc p { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 16px; line-height: 1.2; font-weight: 500; color: #ccc; margin-bottom: 16px; }
@@ -26,10 +28,10 @@
     #forms { position: relative; width: 100%; height: 600px; overflow: visible; }
     .form-img { position: absolute; }
     .form-img img { width: 100%; height: auto; display: block; object-fit: contain; object-position: bottom center; }
-    .form-img:nth-child(1) { left: 5%; bottom: 20px; width: 400px; }
-    .form-img:nth-child(2) { right: 5%; bottom: 250px; width: 440px; }
+    .form-img:nth-child(1) { left: calc(5% + 450px); bottom: -55px; width: 540px; }
+    .form-img:nth-child(2) { right: calc(5% + 405px); bottom: 335px; width: 457px; }
     .grain-box { background: #252525; position: relative; }
-    footer { padding: 26px 24px 30px; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+    footer { padding: 26px 24px 15px; display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 90px; }
     footer img { height: 60px; width: auto; }
     footer p { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 13px; color: #aaa; position: relative; top: -5px; }
   </style>
@@ -53,6 +55,7 @@
     <img src="post-images/1ab44f_d31ce986a11f4b37b9c4162ce0ab9170~mv2.png" alt="PodongNet">
     <div class="char-title">
       <h1>Munggou</h1>
+      <p>Chowchow</p>
     </div>
   </div>
   <div class="char-main">
