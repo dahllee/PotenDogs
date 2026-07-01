@@ -26,10 +26,11 @@
     .char-desc p { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 16px; line-height: 1.2; font-weight: 500; color: #ccc; margin-bottom: 16px; }
     .char-desc p:last-child { margin-bottom: 0; }
     #forms { position: relative; width: 100%; height: 600px; overflow: visible; }
+    .forms-inner { width: 1200px; margin: 0 auto; position: relative; height: 100%; }
     .form-img { position: absolute; }
     .form-img img { width: 100%; height: auto; display: block; object-fit: contain; object-position: bottom center; }
-    .form-img:nth-child(1) { right: calc(5% + 410px); bottom: -160px; width: 459px; z-index: 1; }
-    .form-img:nth-child(2) { left: calc(5% + 400px); bottom: 200px; width: 567px; z-index: 0; }
+    .form-img:nth-child(1) { right: 410px; bottom: -160px; width: 459px; z-index: 1; }
+    .form-img:nth-child(2) { left: 400px; bottom: 200px; width: 567px; z-index: 0; }
     .grain-box { background: #252525; position: relative; }
     footer { padding: 26px 24px 15px; display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 180px; }
     footer img { height: 60px; width: auto; }
@@ -70,11 +71,13 @@
 </section>
 
 <section id="forms">
-  <div class="form-img">
-    <img src="post-images/1ab44f_8869010224094401afc62f57e37028f9~mv2.png" alt="Marley 견신">
-  </div>
-  <div class="form-img">
-    <img src="post-images/1ab44f_aeee74c8cd2d409888cea7a2d1533e36~mv2.png" alt="Marley 철견">
+  <div class="forms-inner">
+    <div class="form-img">
+      <img src="post-images/1ab44f_8869010224094401afc62f57e37028f9~mv2.png" alt="Marley 견신">
+    </div>
+    <div class="form-img">
+      <img src="post-images/1ab44f_aeee74c8cd2d409888cea7a2d1533e36~mv2.png" alt="Marley 철견">
+    </div>
   </div>
 </section>
 

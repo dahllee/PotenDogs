@@ -26,10 +26,11 @@
     .char-desc p { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 16px; line-height: 1.2; font-weight: 500; color: #ccc; margin-bottom: 16px; }
     .char-desc p:last-child { margin-bottom: 0; }
     #forms { position: relative; width: 100%; height: 600px; overflow: visible; }
+    .forms-inner { width: 1200px; margin: 0 auto; position: relative; height: 100%; }
     .form-img { position: absolute; }
     .form-img img { width: 100%; height: auto; display: block; object-fit: contain; object-position: bottom center; }
-    .form-img:nth-child(1) { left: calc(5% + 450px); bottom: -55px; width: 540px; }
-    .form-img:nth-child(2) { right: calc(5% + 405px); bottom: 335px; width: 457px; }
+    .form-img:nth-child(1) { left: 450px; bottom: -55px; width: 540px; }
+    .form-img:nth-child(2) { right: 405px; bottom: 335px; width: 457px; }
     .grain-box { background: #252525; position: relative; }
     footer { padding: 26px 24px 15px; display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 90px; }
     footer img { height: 60px; width: auto; }
@@ -70,11 +71,13 @@
 </section>
 
 <section id="forms">
-  <div class="form-img">
-    <img src="post-images/1ab44f_0c7770c4830946f19e7220bb91c9f2de~mv2.png" alt="Munggou 견신">
-  </div>
-  <div class="form-img">
-    <img src="post-images/1ab44f_620e3d85be354a159c743c1cc0136f49~mv2.png" alt="Munggou 철견">
+  <div class="forms-inner">
+    <div class="form-img">
+      <img src="post-images/1ab44f_0c7770c4830946f19e7220bb91c9f2de~mv2.png" alt="Munggou 견신">
+    </div>
+    <div class="form-img">
+      <img src="post-images/1ab44f_620e3d85be354a159c743c1cc0136f49~mv2.png" alt="Munggou 철견">
+    </div>
   </div>
 </section>
 

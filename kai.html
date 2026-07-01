@@ -41,11 +41,12 @@
 
     /* Transformation — 철견 & 견신 independently positioned */
     #forms { position: relative; width: 100%; height: 600px; overflow: visible; }
+    .forms-inner { width: 1200px; margin: 0 auto; position: relative; height: 100%; }
     .form-img { position: absolute; }
     .form-img img { width: 100%; height: auto; display: block; object-fit: contain; object-position: bottom center; }
     .form-label { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 13px; letter-spacing: 0.1em; color: #888; }
-    .form-img:nth-child(1) { left: calc(5% + 340px); bottom: 30px; width: 454px; }
-    .form-img:nth-child(2) { right: calc(5% + 380px); bottom: 330px; width: 513px; }
+    .form-img:nth-child(1) { left: 340px; bottom: 30px; width: 454px; }
+    .form-img:nth-child(2) { right: 380px; bottom: 330px; width: 513px; }
 
     /* Footer */
     .grain-box { background: #252525; position: relative; }
@@ -88,11 +89,13 @@
 </section>
 
 <section id="forms">
-  <div class="form-img">
-    <img src="post-images/1ab44f_ce7e950da0394a2da61517dbe56cfee2~mv2.png" alt="Kai 견신">
-  </div>
-  <div class="form-img">
-    <img src="post-images/1ab44f_7de13ec86c0847409a194dc1211ba71c~mv2.png" alt="Kai 철견">
+  <div class="forms-inner">
+    <div class="form-img">
+      <img src="post-images/1ab44f_ce7e950da0394a2da61517dbe56cfee2~mv2.png" alt="Kai 견신">
+    </div>
+    <div class="form-img">
+      <img src="post-images/1ab44f_7de13ec86c0847409a194dc1211ba71c~mv2.png" alt="Kai 철견">
+    </div>
   </div>
 </section>
 

@@ -26,10 +26,11 @@
     .char-desc p { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 16px; line-height: 1.2; font-weight: 500; color: #ccc; margin-bottom: 16px; }
     .char-desc p:last-child { margin-bottom: 0; }
     #forms { position: relative; width: 100%; height: 600px; overflow: visible; }
+    .forms-inner { width: 1200px; margin: 0 auto; position: relative; height: 100%; }
     .form-img { position: absolute; }
     .form-img img { width: 100%; height: auto; display: block; object-fit: contain; object-position: bottom center; }
-    .form-img:nth-child(1) { left: calc(5% + 360px); bottom: -240px; width: 717px; }
-    .form-img:nth-child(2) { right: calc(5% + 400px); bottom: 340px; width: 524px; }
+    .form-img:nth-child(1) { left: 360px; bottom: -240px; width: 717px; }
+    .form-img:nth-child(2) { right: 400px; bottom: 340px; width: 524px; }
     .grain-box { background: #252525; position: relative; }
     footer { padding: 26px 24px 15px; display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 260px; }
     footer img { height: 60px; width: auto; }
@@ -71,11 +72,13 @@
 </section>
 
 <section id="forms">
-  <div class="form-img">
-    <img src="post-images/1ab44f_484ae50fa322496292c0777ba339514a~mv2.png" alt="Rutger 견신">
-  </div>
-  <div class="form-img">
-    <img src="post-images/1ab44f_02ada43010a048f0be64ac9de9200e6d~mv2.png" alt="Rutger 철견">
+  <div class="forms-inner">
+    <div class="form-img">
+      <img src="post-images/1ab44f_484ae50fa322496292c0777ba339514a~mv2.png" alt="Rutger 견신">
+    </div>
+    <div class="form-img">
+      <img src="post-images/1ab44f_02ada43010a048f0be64ac9de9200e6d~mv2.png" alt="Rutger 철견">
+    </div>
   </div>
 </section>
 

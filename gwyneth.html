@@ -26,10 +26,11 @@
     .char-desc p { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size: 16px; line-height: 1.2; font-weight: 500; color: #ccc; margin-bottom: 16px; }
     .char-desc p:last-child { margin-bottom: 0; }
     #forms { position: relative; width: 100%; height: 600px; overflow: visible; }
+    .forms-inner { width: 1200px; margin: 0 auto; position: relative; height: 100%; }
     .form-img { position: absolute; }
     .form-img img { width: 100%; height: auto; display: block; object-fit: contain; object-position: bottom center; }
-    .form-img:nth-child(1) { right: calc(5% + 200px); bottom: -30px; width: 335px; }
-    .form-img:nth-child(2) { left: calc(5% + 250px); bottom: 385px; width: 543px; }
+    .form-img:nth-child(1) { right: 200px; bottom: -30px; width: 335px; }
+    .form-img:nth-child(2) { left: 250px; bottom: 385px; width: 543px; }
     .grain-box { background: #252525; position: relative; }
     footer { padding: 26px 24px 15px; display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 50px; }
     footer img { height: 60px; width: auto; }
@@ -71,11 +72,13 @@
 </section>
 
 <section id="forms">
-  <div class="form-img">
-    <img src="post-images/1ab44f_ec85ded9b68048c6af66a05fdbe7d250~mv2.png" alt="Gwyneth 견신">
-  </div>
-  <div class="form-img">
-    <img src="post-images/1ab44f_12ca46d347094d209d4704fdcdb3d923~mv2.png" alt="Gwyneth 철견">
+  <div class="forms-inner">
+    <div class="form-img">
+      <img src="post-images/1ab44f_ec85ded9b68048c6af66a05fdbe7d250~mv2.png" alt="Gwyneth 견신">
+    </div>
+    <div class="form-img">
+      <img src="post-images/1ab44f_12ca46d347094d209d4704fdcdb3d923~mv2.png" alt="Gwyneth 철견">
+    </div>
   </div>
 </section>
 
