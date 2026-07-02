@@ -67,24 +67,24 @@
        HERO SECTION
     ══════════════════════════════════════════ */
     #hero {
-      min-height: calc(100vh + 40px);
-      padding-top: 56px;
+      height: 998px;
       position: relative;
       overflow: hidden;
     }
+    .hero-inner { width: 1200px; margin: 0 auto; position: relative; height: 998px; }
     #hero .kai-art {
       position: absolute;
       top: 55px;
-      right: 150px;
-      height: 80%;
-      max-height: 750px;
+      right: -200px;
+      height: 750px;
+      max-width: none;
       object-fit: contain;
       object-position: right center;
       pointer-events: none;
     }
     #hero .pd-logo {
       position: absolute;
-      top: calc(100vh - 535px);
+      top: 423px;
       left: 0;
       right: 0;
       height: 210px;
@@ -109,7 +109,7 @@
     #hero .publisher-logos img { height: 36px; width: auto; }
     #hero .awards {
       position: absolute;
-      top: calc(100vh - 270px);
+      top: 688px;
       left: 0;
       right: 0;
       z-index: 2;
@@ -135,7 +135,7 @@
     }
     #hero .program-format {
       position: absolute;
-      top: calc(100vh - 154px);
+      top: 804px;
       left: 0;
       right: 0;
       z-index: 2;
@@ -148,7 +148,7 @@
     }
     #hero .social-icons {
       position: absolute;
-      top: calc(100vh - 24px);
+      top: 934px;
       left: 0;
       right: 0;
       z-index: 2;
@@ -509,6 +509,7 @@
      HERO
 ══════════════════════════════════════════ -->
 <section id="hero">
+  <div class="hero-inner">
   <img class="kai-art" src="post-images/1ab44f_4625affabe454311ac20b377518ad8f7~mv2.png" alt="Kai — Biped Champion">
   <img class="pd-logo" src="post-images/1ab44f_05664a7585bf4cb893ce4b5829d9bc27~mv2.png" alt="PotenDogs">
   <div class="awards">
@@ -543,6 +544,7 @@
         <svg viewBox="0 0 448 512"><path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0l88 0a121.18 121.18 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14z"/></svg>
       </a>
     </div>
+  </div>
 </section>
 
 <!-- ══════════════════════════════════════════
